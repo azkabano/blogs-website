@@ -3,10 +3,8 @@ import MainPage from "./Home/page";
 
 export default function Home() {
   return (
-    <main className="w-full min-h-screen">
-
+    <main className="w-full    container mx-auto min-h-screen ">
       <   MainPage />
-
     </main>
   );
 }

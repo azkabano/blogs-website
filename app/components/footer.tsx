@@ -10,7 +10,7 @@ export default function Footer() {
       </div>
       <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-4  gap-12">
         <div>
-          <h4 className="text-black font-light	 text-[18px]">THE VEHICLEVIN</h4>
+          <h4 className="text-black font-light	 text-[18px]">THE BLOG</h4>
           <p className="mt-2 text-black/75">
             Unlock the history of any vehicle with TheVehicleVin, offering
             transparent and reliable VIN lookup services for buyers and sellers

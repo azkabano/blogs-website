@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Heading from "../components/heading";
 
 
 const MainPage = () => {
@@ -49,10 +50,69 @@ const MainPage = () => {
       </section>
 
 
-      <div className="container">
-         <div className="heading py-3 px-3 text-[30px]">Recents Posts</div>
-      </div>
+      <Heading headingValue="Recent Posts" />
 
+      <div className="container grid grid-cols-3    place-items-center gap-4 max-lg:grid-cols-2 max-md:grid-cols-1 ">
+
+        <div className="card flex flex-col  max-w-[350px]  text-white   overflow-hidden   m-2">
+          <Image
+            src={"/card.webp"}
+            alt="hero"
+            width={350}
+            height={700}
+            className="  object-cover"
+          />
+          <div className="content w-full  flex-wrap  h-full flex flex-col  justify-end py-1">
+            <div className="flex justify-start items-center font-mono  gap-5">
+              <div className=" p-1 px-3 text-black  bg-[#9112F9] rounded-md">JQUERY</div>
+              <p className="text-black">March 27, 2018</p>
+            </div>
+            <p className="text-[18px] text-black  font-semibold mt-1  ">Ask HN: Does Anybody Still Use JQuery?</p>
+          </div>
+        </div>
+
+
+        <div className="card flex flex-col  max-w-[350px]  text-white   overflow-hidden   m-2">
+          <Image
+            src={"/card.webp"}
+            alt="hero"
+            width={350}
+            height={700}
+            className="  object-cover"
+          />
+          <div className="content w-full  flex-wrap  h-full flex flex-col  justify-end py-1">
+            <div className="flex justify-start items-center font-mono  gap-5">
+              <div className=" p-1 px-3 text-black  bg-[#9112F9] rounded-md">JQUERY</div>
+              <p className="text-black">March 27, 2018</p>
+            </div>
+            <p className="text-[18px] text-black  font-semibold mt-1  ">Ask HN: Does Anybody Still Use JQuery?</p>
+          </div>
+        </div>
+
+
+
+        <div className="card flex flex-col  max-w-[350px]  text-white   overflow-hidden   m-2">
+          <Image
+            src={"/card.webp"}
+            alt="hero"
+            width={350}
+            height={700}
+            className="  object-cover"
+          />
+          <div className="content w-full  flex-wrap  h-full flex flex-col  justify-end py-1">
+            <div className="flex justify-start items-center font-mono  gap-5">
+              <div className=" p-1 px-3 text-black  bg-[#9112F9] rounded-md">JQUERY</div>
+              <p className="text-black">March 27, 2018</p>
+            </div>
+            <p className="text-[18px] text-black  font-semibold mt-1  ">Ask HN: Does Anybody Still Use JQuery?</p>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
 
 
 
