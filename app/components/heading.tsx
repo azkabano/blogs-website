@@ -1,6 +1,6 @@
 const Heading = ({ headingValue }: { headingValue: string }) => {
-    return <div className=" container mx-auto text-start  w-[93%]">
-        <div className="heading py-3  text-[30px]">Recents Posts</div>
+    return <div className=" container py-8 mx-auto text-start  w-[93%]">
+        <div className="heading py-3  underline text-[30px]">{headingValue}</div>
     </div>;
 }
 

@@ -46,7 +46,7 @@ export default function Footer() {
               placeholder="Your Email..."
               className="px-2 w-[150px] outline-none h-[40px]  rounded-[50px] text-gray-900"
             />
-            <button className=" text-black/75  h-[40px] text-[14px]  bg-[#303030] text-black px-2  rounded-[50px] hover:bg-gray-700">
+            <button className=" text-black/75  h-[40px] text-[14px]  border border-white bg-white text-black px-2  rounded-[50px] hover:bg-gray-700">
               SUBSCRIBE
             </button>
           </div>
