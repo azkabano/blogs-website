@@ -78,7 +78,7 @@ const Navbar = () => {
             Home
           </a>
           <a
-            href="/blog"
+            href="/blogs"
             className="border-b-[3px] block transition-all duration-300 tracking-tight font-semibold border-transparent hover:bg-[#33373d] hover:text-white px-3 py-2"
           >
             Blog
