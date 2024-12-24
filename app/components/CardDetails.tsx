@@ -9,7 +9,8 @@ const CardDetails = ({ data }: { data: any }) => {
                 alt="hero"
                 width={350}
                 height={700}
-                className="  object-cover"
+                className="h-full w-full  object-cover"
+              
             />
             <div className="content w-full  flex-wrap  h-full flex flex-col  justify-end py-1">
                 <div className="flex justify-start items-center font-mono  gap-5">

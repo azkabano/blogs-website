@@ -9,7 +9,7 @@ const blogs = [
         isPopular: false,
         isRecent: true,
         date: "2024-10-01",
-        image: "https://via.placeholder.com/600x400?text=JavaScript+Blog",
+        image: "/cards/js.png",
         comments: ["Very helpful article!", "Great tips, thanks!"],
     },
     {
@@ -22,7 +22,7 @@ const blogs = [
         isPopular: false,
         isRecent: true,
         date: "2024-12-15",
-        image: "https://via.placeholder.com/600x400?text=React+Hooks",
+        image: "/cards/hook.png",
         comments: ["Hooks made my life easier!", "Detailed explanation."],
     },
     {
@@ -35,7 +35,7 @@ const blogs = [
         isPopular: true,
         isRecent: true,
         date: "2024-12-05",
-        image: "https://via.placeholder.com/600x400?text=AI+Healthcare",
+        image: "/cards/ai.png",
         comments: ["This is amazing!", "AI is the future!"],
     },
     {
@@ -48,7 +48,7 @@ const blogs = [
         isPopular: true,
         isRecent: false,
         date: "2024-09-15",
-        image: "https://via.placeholder.com/600x400?text=CSS+Frameworks",
+        image: "/cards/css.jpg",
         comments: ["Tailwind is the best!", "Bootstrap still rocks."],
     },
     {
@@ -61,7 +61,7 @@ const blogs = [
         isPopular: false,
         isRecent: true,
         date: "2024-11-30",
-        image: "https://via.placeholder.com/600x400?text=Python+Data+Science",
+        image: "/cards/py.jpg",
         comments: ["Informative read.", "Python forever!"],
     },
     {
@@ -74,7 +74,7 @@ const blogs = [
         isPopular: true,
         isRecent: false,
         date: "2024-08-10",
-        image: "https://via.placeholder.com/600x400?text=Next.js+14",
+        image: "/cards/nextjs.png",
         comments: ["I needed this guide!", "SSR is so useful."],
     },
     {
@@ -87,7 +87,7 @@ const blogs = [
         isPopular: false,
         isRecent: true,
         date: "2024-11-20",
-        image: "https://via.placeholder.com/600x400?text=UI+UX+Trends",
+        image: "/cards/ui.png",
         comments: ["Love the insights!", "Very futuristic."],
     },
     {
@@ -100,7 +100,7 @@ const blogs = [
         isPopular: false,
         isRecent: false,
         date: "2024-07-20",
-        image: "https://via.placeholder.com/600x400?text=Node.js+REST+API",
+        image: "/cards/aws.png",
         comments: ["Very clear examples.", "Great starter guide!"],
     },
     {
@@ -113,7 +113,7 @@ const blogs = [
         isPopular: false,
         isRecent: true,
         date: "2024-11-10",
-        image: "https://via.placeholder.com/600x400?text=Web3+Blockchain",
+        image: "/cards/web.jpg",
         comments: ["Very exciting topic!", "Crypto is the future!"],
     },
     {
@@ -126,7 +126,7 @@ const blogs = [
         isPopular: true,
         isRecent: false,
         date: "2024-08-25",
-        image: "https://via.placeholder.com/600x400?text=AWS+Deployment",
+        image: "/cards/aws.jpg",
         comments: ["Helpful tutorial.", "AWS made easy!"],
     },
 ];

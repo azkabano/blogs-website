@@ -12,7 +12,7 @@ const CardData = ({ filter }: { filter: any }) => {
     return (
         <div className="container grid grid-cols-3    place-items-center gap-4 max-lg:grid-cols-2 max-md:grid-cols-1 ">
 
-            {recentBlog.map((Blog: any) => <CardDetails data={Blog} />)}
+            {recentBlog.map((Blog: any,index:number) => <CardDetails data={Blog} key={index} />)}
         </div>
 
     );

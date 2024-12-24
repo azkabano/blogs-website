@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className=" border-t mt-4 min-h-[80vh] text-[14px] footerFont text-black p-10 flex justify-between flex-col">
+    <footer className=" border-t mt-4 min-h-[80vh] text-[14px]  border-black/40 footerFont text-black p-10 flex justify-between flex-col">
       <div className="w-[100%] flex  justify-center items-center">
         <a href="/">
           <Image src="/favicon.ico" alt="logo" width={100} height={80} />
@@ -12,9 +12,7 @@ export default function Footer() {
         <div>
           <h4 className="text-black font-light	 text-[18px]">THE BLOG</h4>
           <p className="mt-2 text-black/75">
-            Unlock the history of any vehicle with TheVehicleVin, offering
-            transparent and reliable VIN lookup services for buyers and sellers
-            alike.
+            The Blog offers insightful articles, updates, and expert opinions on a variety of topics.
           </p>
         </div>
 
