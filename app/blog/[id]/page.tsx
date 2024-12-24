@@ -22,7 +22,7 @@ const BlogDetail = ({ params }: { params: { id: string } }) => {
     const [comment, setComment] = useState<string>("");
     const [currentBlog, setCurrentBlog] = useState<Blog | null>(null);
 
-   
+
     useEffect(() => {
         const blog = blogs.find((item) => item.id === parseInt(params.id));
         setCurrentBlog(blog || null);
@@ -118,7 +118,7 @@ const BlogDetail = ({ params }: { params: { id: string } }) => {
                         )}
                     </ul>
 
-                    <div className="mt-6 flex items-center space-x-4">
+                    <div className="mt-6 flex max-md:flex-col items-center space-x-4">
                         <input
                             type="text"
                             value={comment}
