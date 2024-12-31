@@ -18,8 +18,8 @@ export default function Footer() {
 
         <div className="">
           <h4 className=" text-black font-light	 text-[18px]">CONTACT US</h4>
-          <p className="mt-2 text-black/75">malikadil5679@gmail.com</p>
-          <p className=" text-black/75">+92 313 6196 041</p>
+          <p className="mt-2 text-black/75">azkamkashif@gmail.com</p>
+          <p className=" text-black/75">+92 313 8994 061</p>
         </div>
 
         <div>
@@ -44,7 +44,7 @@ export default function Footer() {
               placeholder="Your Email..."
               className="px-2 w-[150px] outline-none h-[40px]  rounded-[50px] text-gray-900"
             />
-            <button className=" bg-blue-500 hover:bg-blue-600  h-[40px] text-[14px]  border border-white   px-2  rounded-[50px]">
+            <button className=" bg-[#00c2cb] hover:bg-gray-500  h-[40px] text-[14px]  border border-white   px-2  rounded-[50px]">
               SUBSCRIBE
             </button>
           </div>
